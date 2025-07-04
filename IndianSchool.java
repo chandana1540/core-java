@@ -1,10 +1,7 @@
-class School {
+class IndianSchool {
 	public static void main(String school[]) {
 		System.out.println("Main Started");
-		centre();
+		Indian.centre("Karnataka","English");
 		System.out.println("Main Ended");
-	}
-	public static void centre() {
-		System.out.println("it provides education and knowledge");
 	}
 }

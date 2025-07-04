@@ -1,10 +1,8 @@
-class Park {
+class JPPark {
 	public static void main(String park[]) {
 		System.out.println("Main Started");
-		garden();
+		JP.garden("flowers","banglore");
 		System.out.println("Main Ended");
 	}
-	public static void garden() {
-		System.out.println("The garden area is available");
-	}
 }
+

@@ -1,10 +1,8 @@
-class Hostel {
+class HostelRooms {
 	public static void main(String hostel[]) {
 		System.out.println("Main Started");
-		rooms();
+		Rooms.rooms(2,4000);
 		System.out.println("Main Ended");
 	}
-	public static void rooms() {
-		System.out.println("Sharing Rooms with Multiple beds");
-	}
 }
+	

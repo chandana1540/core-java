@@ -1,10 +1,8 @@
 class MallOfAsia {
-	public static void main(String Mall[]) {
+	public static void main(String mall[]) {
 		System.out.println("Main Started");
-		shop();
+		Mall.shop("shopping","Banglore");
 		System.out.println("Main Ended");
 	}
-	public static void shop() {
-		System.out.println("it is an shoping centre");
-	}
+
 }

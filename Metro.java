@@ -1,10 +1,6 @@
 class Metro {
-	public static void main(String Metro[]) {
-		System.out.println("Main Started");
-		AC();
-		System.out.println("Main Ended");
-	}
-	public static void AC() {
-		System.out.println("AC is available in metro");
+	public static void AC(String type, String  railway) {
+		System.out.println("the type of metro is "+type);
+		System.out.println("the railway of metro is "+railway);
 	}
 }

@@ -1,11 +1,8 @@
-class airTickets0 {
+class AirTickets1 {
 	public static void main (String ticket[]) {
 	System.out.println("Main Started");
-    tickets();
+    Air.tickets("Airtick005",80000);
 	System.out.println("Main Ended");
-	}
-	public static void tickets() {
-		System.out.println("Booking The flight Tickets");
 	}
 }
 
