@@ -1,18 +1,18 @@
-class Dominos{
+class DominosValidation {
 	static String firstName;
 	static String lastName;
 	static int pinCode;
 	static long phoneNumber;
 	static String email;
 	
-	public static boolean RegisterUser(String fName, String lName, int pCode, long pNumber, String mail){
+	public static boolean ValidateDominosUser(String fName, String lName, int pCode, long pNumber, String mail){
 		boolean firstNameValid = false;
 		boolean lastNameValid = false;
 		boolean pinCodeValid = false;
 		boolean phoneNumberValid = false;
 		boolean emailValid = false;
-		boolean isUserRegistered = false;
-		if(fName != null){
+		boolean isUserValidated = false;
+	if(fName != null){
 			firstName=fName;
 			firstNameValid=true;
 		}else System.out.println("The FullName is not a valid");
@@ -38,16 +38,8 @@ class Dominos{
 		}else System.out.println("The email is not valid");
 		
 		if(firstNameValid && lastNameValid && pinCodeValid && phoneNumberValid && emailValid){
-		isUserRegistered = true;
+		isUserValidated = true;
 		}else System.out.println("The user is not registered");
-
-		return isUserRegistered;
-	}
-    public static void getRegisterDetails(){
-    System.out.println("The firstName is "+firstName);
-    System.out.println("The lastName is "+lastName);
-    System.out.println("The pincode is "+pinCode);
-    System.out.println("The email is "+email);
-    System.out.println("The phoneNumber is "+phoneNumber);
+		return isUserValidated;
 	}
 }

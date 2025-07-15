@@ -1,24 +1,24 @@
-class FlipKart{
+class FlipKartValidation{
 	static String fullName;
 	static int pinCode;
 	static String address;
 	static long mobileNumber;
     static String password;
 
-    public static boolean createUser(String fName, int pCode,String add, long mNo, String pwd){
+    public static boolean  FlipKartValidator(String fName, int pCode,String add, long mNo, String pwd){
     boolean fullNameValid = false;
     boolean pinCodeValid = false;
     boolean addressValid = false;
     boolean mobileNumberValid =false;
     boolean passwordValid = false;
-	boolean isAccountCreated = false;
+	boolean isUserValidated = false;
     
     if(fName != null){
 		fullName = fName;
 		fullNameValid = true;
 	} else System.out.println("The fullname is not valid");
 	
-	if(pCode != 0){
+	if(pCode > 0){
 		pinCode = pCode;
 		pinCodeValid = true;
 	} else System.out.println("The pinCode is not valid");
@@ -39,19 +39,10 @@ class FlipKart{
 	} else System.out.println("The password is not valid");
 	
 	if(fullNameValid && pinCodeValid && addressValid && mobileNumberValid && passwordValid){
-	isAccountCreated = true;
+	isUserValidated = true;
     } else System.out.println("The account created is not valid");
    
-    return isAccountCreated;
+    return isUserValidated;
 	}
-public static void getAccountInfo(){
-System.out.println("The fullName is "+fullName);
-System.out.println("The pincode is "+pinCode);
-System.out.println("The address is "+address);
-System.out.println("The mobileNumber is "+mobileNumber);
-System.out.println("The password is "+password);
-}
-}	
-	
-	
+	}
 	

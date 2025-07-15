@@ -1,12 +1,12 @@
-class Meesho{
+class MeeshoValidation{
 	static String fullName;
 	static long phoneNumber;
 	static String email;
 	static String password;
 	static String location;
 	
-	public static boolean RegisterUser(String fName,long pNo, String mail, String pwd, String loc){
-		boolean isUserRegistered = false;
+	public static boolean ValidateMeeshoUser(String fName,long pNo, String mail, String pwd, String loc){
+		boolean isUserValidated = false;
 		boolean fullNameValid = false;
 		boolean phoneNumberValid = false;
 		boolean emailValid = false;
@@ -34,16 +34,8 @@ class Meesho{
 			locationValid = true;
 		} else System.out.println("The location is not valid");
 		if(fullNameValid&&phoneNumberValid&&emailValid&&passwordValid&&locationValid){
-			isUserRegistered=true;
+			isUserValidated=true;
 		}
-		return isUserRegistered;
+		return isUserValidated;
 	}
-		public static void getRegisterInfo(){
-			System.out.println("The fullName is "+fullName);
-			System.out.println("The phoneNumber is "+phoneNumber);
-			System.out.println("The email is "+email);
-			System.out.println("the password is "+password);
-			System.out.println("The location is "+location);
-		}
-	}
-	
+}

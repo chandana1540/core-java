@@ -1,18 +1,19 @@
-class AirtelMusic {
+class AirtelMusicValidation {
 	static int userID;
 	static String userName;
 	static String songTitle;
 	static int downloadCount;
 	static String email;
-	public static boolean RegisterUser(int id, String uName, String sTitle, int dCount, String mail){
-		boolean isuserRegistered = false;
+	
+	public static boolean ValidateAirtelMusicUser(int id, String uName, String sTitle, int dCount, String mail){
+		boolean isuserValidated = false;
 		boolean userIDValid = false;
 		boolean userNameValid = false;
 		boolean songTitleValid = false;
 		boolean downloadCountValid = false;
 		boolean emailValid = false;
-		
-		if(id!=0){
+	
+	if(id!=0){
 			userID = id;
 			userIDValid = true;
 		} else System.out.println("The userId is not valid");
@@ -38,16 +39,8 @@ class AirtelMusic {
 		} else System.out.println("The email is not valid");
 		
 		if(userIDValid && userNameValid && songTitleValid && downloadCountValid && emailValid){
-			isuserRegistered = true;
+			isuserValidated = true;
 		} else System.out.println("The userRegistered is not valid");
-		return isuserRegistered;
-	}
-	
-        public static void getRegisterDetails(){
-			System.out.println("The UserId is "+userID);
-			System.out.println("The UserName is "+userName);
-			System.out.println("The SongTitle is "+songTitle);
-			System.out.println("The DownloadCount is "+downloadCount);
-			System.out.println("The email is "+email);
-		}
-}
+		return isuserValidated;
+	    }
+        }

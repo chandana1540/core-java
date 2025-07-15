@@ -1,12 +1,12 @@
-class JioHotStar {
-	static String fullName;
+class jioHotStarValidation{
+    static String fullName;
 	static int age;
 	static char gender;
 	static long mobileNumber;
 	static String email;
 	
-	public static boolean AccountUser(String fName, int Age, char G, long mNumber, String mail){
-		boolean isAccountcreated = false;
+	public static boolean jioHotStarValidator(String fName, int Age, char G, long mNumber, String mail){
+		boolean isUserValidated = false;
 		boolean fullNameValid = false;
 		boolean ageValid = false;
 		boolean genderValid = false;
@@ -38,16 +38,11 @@ class JioHotStar {
 		} else System.out.println("The email is not valid ");
 		
 		if(fullNameValid && ageValid && genderValid && mobileNumberValid && emailValid){
-			isAccountcreated = true;
+			isUserValidated = true;
 		} else System.out.println("The user is not valid");
+		return isUserValidated;
+	    }
+      }
+	
+
 		
-		return isAccountcreated;
-     }
-    public static void getUserDetails(){
-		System.out.println("The fullName is "+fullName);
-		System.out.println("The age is "+age);
-		System.out.println("The gender is "+gender);
-		System.out.println("The mobileNumber is "+mobileNumber);
-		System.out.println("The mail is "+email);
-	}
-	}

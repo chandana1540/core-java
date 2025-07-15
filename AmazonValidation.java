@@ -1,17 +1,18 @@
-class Amazon1{
+class AmazonValidation{
+    
 	static String firstName;
 	static String lastName;
 	static String dateOfBirth;
 	static long phoneNumber;
 	static String email;
 	
-	public static boolean AccountCreation(String fName, String lName, String DOB, long pNumber, String mail){
+	public static boolean AmazonValidater(String fName, String lName, String DOB, long pNumber, String mail){
 		boolean firstNameValid = false;
 		boolean lastNameValid = false;
 		boolean dateOfBirthValid = false;
 		boolean phoneNumberValid = false;
 		boolean emailValid = false;
-		boolean isToCreateAccount = false;
+		boolean isUserValidated = false;
 		
 		if(fName != null){
 			firstName = fName;
@@ -39,15 +40,8 @@ class Amazon1{
 		} else System.out.println("The email is not valid");
 		
 		if(firstNameValid && lastNameValid && dateOfBirthValid && phoneNumberValid && emailValid){
-			isToCreateAccount = true;
+			isUserValidated = true;
 		} else System.out.println("The create account is not Valid");
-		return isToCreateAccount;
-	}
-	public static void getAccountInfo(){
-		System.out.println("The firstName is "+firstName);
-		System.out.println("The lastName is "+lastName);
-		System.out.println("The dateOfBirth is "+dateOfBirth);
-		System.out.println("The phoneNumber is "+phoneNumber);
-		System.out.println("The email is "+email);
+		return isUserValidated;
 	}
 }

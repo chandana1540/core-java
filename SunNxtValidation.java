@@ -1,12 +1,12 @@
-class SunNxt{
+class SunNxtValidation{
     static String fullName;
 	static long phoneNumber;
 	static String location;
 	static int userId;
 	static int age;
 	
-	public static boolean SignUpUser(String fName,long pNumber , String loc ,int ID, int Age){
-		boolean isSignedUp = false;
+	public static boolean SunNxtValidateUser(String fName,long pNumber , String loc ,int ID, int Age){
+		boolean isUserValidated = false;
 		boolean fullNameValid = false;
 		boolean phoneNumberValid = false;
 		boolean locationValid = false;
@@ -39,17 +39,8 @@ class SunNxt{
 		} else System.out.println("The age is not valid");
 		
 		if(fullNameValid && phoneNumberValid && locationValid && userIdValid && ageValid){
-			isSignedUp = true;
+			isUserValidated = true;
 		} else System.out.println("the user signedUp is not valid");
-	
-		return isSignedUp;
+		return isUserValidated;
 	}
-		
-		public static void getSignedUpDetails(){
-			System.out.println("The fullName is "+fullName);
-			System.out.println("The phoneNumber is "+phoneNumber);
-			System.out.println("The location is "+location);
-			System.out.println("The userId is "+userId);
-            System.out.println("The age is "+age);
-		}
-}		
+}

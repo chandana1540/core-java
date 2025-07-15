@@ -1,12 +1,13 @@
-class Twitter{
+class  TwitterValidation{  
+	
 	static String fullName;
 	static String email;
 	static String dateOfBirth;
 	static String password;
     static String confirmPassword;
 
-public static boolean createAccountUser(String fName, String mail, String DOB, String pwd, String cpwd){
-boolean isAccountCreated = false;
+public static boolean TwitterValidator(String fName, String mail, String DOB, String pwd, String cpwd){
+boolean isUserValidated = false;
 boolean fullNameValid = false;
 boolean emailValid = false;
 boolean dateOfBirthValid = false;
@@ -39,16 +40,8 @@ if(cpwd != null && cpwd == pwd){
 } else System.out.println("The confirmPassword is not valid");
 
 if(fullNameValid && emailValid && dateOfBirthValid && passwordValid && confirmPasswordValid){
-isAccountCreated = true;
+isUserValidated = true;
 }
-return isAccountCreated;
-}
-public static void getAccountUserInfo(){
-System.out.println("The fullName is "+fullName);
-System.out.println("The email is "+email);
-System.out.println("The dateOfBirth is "+dateOfBirth);
-System.out.println("the password is "+password);
-System.out.println("The confirmPassword is "+confirmPassword);
+return isUserValidated;
 }
 }
-	
