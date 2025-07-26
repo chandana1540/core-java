@@ -158,8 +158,6 @@ System.out.println("date10 is " + card10.date);
 System.out.println("venue10 is " + card10.venue);
 System.out.println("isPrinted10 is " + card10.isPrinted);
 
-// From 11 to 20 (previously shared, included here for full set)
-
 InvitationCard card11 = new InvitationCard();
 card11.occasion = "Naming Ceremony";
 card11.fromName = "Prakash";
