@@ -5,4 +5,14 @@ class Roti {
     double price;
     boolean isStuffed;
     String servedWith;
+	
+	public void getRotiInfo(){ 
+	    System.out.println("type1 is " + type);
+        System.out.println("flour1 is " + flour);
+        System.out.println("diameter1 is " + diameter);
+        System.out.println("price1 is " + price);
+        System.out.println("isStuffed1 is " + isStuffed);
+        System.out.println("servedWith1 is " + servedWith);
+	}
+		
 }

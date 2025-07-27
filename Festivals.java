@@ -4,4 +4,12 @@ class Festivals {
     String religion;
     boolean isNationalHoliday;
     int daysDuration;
+	
+	public void getFestivalInfo(){
+		System.out.println("name is " + name);
+        System.out.println("month is " + month);
+        System.out.println("religion is " + religion);
+        System.out.println("isNationalHoliday is " + isNationalHoliday);
+        System.out.println("daysDuration is " + daysDuration);
+	}
 }

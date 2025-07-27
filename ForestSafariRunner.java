@@ -2,253 +2,184 @@
     public static void main(String chand[]) {
 
         ForestSafari safari1 = new ForestSafari();
-		System.out.println("name1 is " + safari1.name);
-        System.out.println("location1 is " + safari1.location);
-        System.out.println("forestType1 is " + safari1.forestType);
-        System.out.println("ticketPrice1 is " + safari1.ticketPrice);
-        System.out.println("durationInHours1 is " + safari1.durationInHours);
-        System.out.println("hasGuide1 is " + safari1.hasGuide);
-		
+		System.out.println("The Safari1 are :");
+		safari1.getSafariInfo();
         safari1.name = "Jim Corbett Safari";
         safari1.location = "Uttarakhand";
         safari1.forestType = "Deciduous";
         safari1.ticketPrice = 1500.0;
         safari1.durationInHours = 3;
         safari1.hasGuide = true;
-
-        System.out.println("name1 is " + safari1.name);
-        System.out.println("location1 is " + safari1.location);
-        System.out.println("forestType1 is " + safari1.forestType);
-        System.out.println("ticketPrice1 is " + safari1.ticketPrice);
-        System.out.println("durationInHours1 is " + safari1.durationInHours);
-        System.out.println("hasGuide1 is " + safari1.hasGuide);
-
+        safari1.getSafariInfo();
+        
         ForestSafari safari2 = new ForestSafari();
+		System.out.println("The Safari2 are :");
+		safari2.getSafariInfo();
         safari2.name = "Ranthambore Safari";
         safari2.location = "Rajasthan";
         safari2.forestType = "Dry Deciduous";
         safari2.ticketPrice = 1800.0;
         safari2.durationInHours = 3;
         safari2.hasGuide = true;
-
-        System.out.println("name2 is " + safari2.name);
-        System.out.println("location2 is " + safari2.location);
-        System.out.println("forestType2 is " + safari2.forestType);
-        System.out.println("ticketPrice2 is " + safari2.ticketPrice);
-        System.out.println("durationInHours2 is " + safari2.durationInHours);
-        System.out.println("hasGuide2 is " + safari2.hasGuide);
+		safari2.getSafariInfo();
 
         ForestSafari safari3 = new ForestSafari();
+		System.out.println("The Safari3 are :");
+		safari3.getSafariInfo();
         safari3.name = "Bandipur Safari";
         safari3.location = "Karnataka";
         safari3.forestType = "Tropical";
         safari3.ticketPrice = 1200.0;
         safari3.durationInHours = 2;
         safari3.hasGuide = true;
-
-        System.out.println("name3 is " + safari3.name);
-        System.out.println("location3 is " + safari3.location);
-        System.out.println("forestType3 is " + safari3.forestType);
-        System.out.println("ticketPrice3 is " + safari3.ticketPrice);
-        System.out.println("durationInHours3 is " + safari3.durationInHours);
-        System.out.println("hasGuide3 is " + safari3.hasGuide);
+		safari3.getSafariInfo();
 
         ForestSafari safari4 = new ForestSafari();
+		System.out.println("The Safari4 are :");
+		safari4.getSafariInfo();
         safari4.name = "Kanha Safari";
         safari4.location = "Madhya Pradesh";
         safari4.forestType = "Sal Forest";
         safari4.ticketPrice = 2000.0;
         safari4.durationInHours = 3;
         safari4.hasGuide = true;
-
-        System.out.println("name4 is " + safari4.name);
-        System.out.println("location4 is " + safari4.location);
-        System.out.println("forestType4 is " + safari4.forestType);
-        System.out.println("ticketPrice4 is " + safari4.ticketPrice);
-        System.out.println("durationInHours4 is " + safari4.durationInHours);
-        System.out.println("hasGuide4 is " + safari4.hasGuide);
+		safari4.getSafariInfo();
 
         ForestSafari safari5 = new ForestSafari();
+		System.out.println("The Safari5 are :");
+		safari5.getSafariInfo();
         safari5.name = "Gir Safari";
         safari5.location = "Gujarat";
         safari5.forestType = "Dry Deciduous";
         safari5.ticketPrice = 1300.0;
         safari5.durationInHours = 2;
         safari5.hasGuide = true;
-
-        System.out.println("name5 is " + safari5.name);
-        System.out.println("location5 is " + safari5.location);
-        System.out.println("forestType5 is " + safari5.forestType);
-        System.out.println("ticketPrice5 is " + safari5.ticketPrice);
-        System.out.println("durationInHours5 is " + safari5.durationInHours);
-        System.out.println("hasGuide5 is " + safari5.hasGuide);
+		safari5.getSafariInfo();
 
         ForestSafari safari6 = new ForestSafari();
+		System.out.println("The Safari6 are :");
+		safari6.getSafariInfo();
         safari6.name = "Kaziranga Safari";
         safari6.location = "Assam";
         safari6.forestType = "Grassland";
         safari6.ticketPrice = 1700.0;
         safari6.durationInHours = 2;
         safari6.hasGuide = true;
-
-        System.out.println("name6 is " + safari6.name);
-        System.out.println("location6 is " + safari6.location);
-        System.out.println("forestType6 is " + safari6.forestType);
-        System.out.println("ticketPrice6 is " + safari6.ticketPrice);
-        System.out.println("durationInHours6 is " + safari6.durationInHours);
-        System.out.println("hasGuide6 is " + safari6.hasGuide);
+		safari6.getSafariInfo();
 
         ForestSafari safari7 = new ForestSafari();
+		System.out.println("The Safari7 are :");
+		safari7.getSafariInfo();
         safari7.name = "Periyar Safari";
         safari7.location = "Kerala";
         safari7.forestType = "Evergreen";
         safari7.ticketPrice = 1600.0;
         safari7.durationInHours = 3;
         safari7.hasGuide = true;
-
-        System.out.println("name7 is " + safari7.name);
-        System.out.println("location7 is " + safari7.location);
-        System.out.println("forestType7 is " + safari7.forestType);
-        System.out.println("ticketPrice7 is " + safari7.ticketPrice);
-        System.out.println("durationInHours7 is " + safari7.durationInHours);
-        System.out.println("hasGuide7 is " + safari7.hasGuide);
+		safari7.getSafariInfo();
 
         ForestSafari safari8 = new ForestSafari();
+		System.out.println("The Safari8 are :");
+		safari8.getSafariInfo();
         safari8.name = "Sundarbans Safari";
         safari8.location = "West Bengal";
         safari8.forestType = "Mangrove";
         safari8.ticketPrice = 2500.0;
         safari8.durationInHours = 4;
         safari8.hasGuide = true;
-
-        System.out.println("name8 is " + safari8.name);
-        System.out.println("location8 is " + safari8.location);
-        System.out.println("forestType8 is " + safari8.forestType);
-        System.out.println("ticketPrice8 is " + safari8.ticketPrice);
-        System.out.println("durationInHours8 is " + safari8.durationInHours);
-        System.out.println("hasGuide8 is " + safari8.hasGuide);
+		safari8.getSafariInfo();
 
         ForestSafari safari9 = new ForestSafari();
+		System.out.println("The Safari9 are :");
+		safari9.getSafariInfo();
         safari9.name = "Mudumalai Safari";
         safari9.location = "Tamil Nadu";
         safari9.forestType = "Tropical";
         safari9.ticketPrice = 1100.0;
         safari9.durationInHours = 2;
         safari9.hasGuide = true;
-
-        System.out.println("name9 is " + safari9.name);
-        System.out.println("location9 is " + safari9.location);
-        System.out.println("forestType9 is " + safari9.forestType);
-        System.out.println("ticketPrice9 is " + safari9.ticketPrice);
-        System.out.println("durationInHours9 is " + safari9.durationInHours);
-        System.out.println("hasGuide9 is " + safari9.hasGuide);
+		safari9.getSafariInfo();
 
         ForestSafari safari10 = new ForestSafari();
+		System.out.println("The Safari10 are :");
+		safari10.getSafariInfo();
         safari10.name = "Satpura Safari";
         safari10.location = "Madhya Pradesh";
         safari10.forestType = "Sal Forest";
         safari10.ticketPrice = 1400.0;
         safari10.durationInHours = 3;
         safari10.hasGuide = true;
-
-        System.out.println("name10 is " + safari10.name);
-        System.out.println("location10 is " + safari10.location);
-        System.out.println("forestType10 is " + safari10.forestType);
-        System.out.println("ticketPrice10 is " + safari10.ticketPrice);
-        System.out.println("durationInHours10 is " + safari10.durationInHours);
-        System.out.println("hasGuide10 is " + safari10.hasGuide);
+		safari10.getSafariInfo();
 
         ForestSafari safari11 = new ForestSafari();
+		System.out.println("The Safari11 are :");
+		safari11.getSafariInfo();
         safari11.name = "Tadoba Safari";
         safari11.location = "Maharashtra";
         safari11.forestType = "Dry Deciduous";
         safari11.ticketPrice = 1700.0;
         safari11.durationInHours = 3;
         safari11.hasGuide = true;
-
-        System.out.println("name11 is " + safari11.name);
-        System.out.println("location11 is " + safari11.location);
-        System.out.println("forestType11 is " + safari11.forestType);
-        System.out.println("ticketPrice11 is " + safari11.ticketPrice);
-        System.out.println("durationInHours11 is " + safari11.durationInHours);
-        System.out.println("hasGuide11 is " + safari11.hasGuide);
+		safari11.getSafariInfo();
 
         ForestSafari safari12 = new ForestSafari();
+		System.out.println("The Safari12 are :");
+		safari12.getSafariInfo();
         safari12.name = "Manas Safari";
         safari12.location = "Assam";
         safari12.forestType = "Grassland";
         safari12.ticketPrice = 1500.0;
         safari12.durationInHours = 3;
         safari12.hasGuide = true;
-
-        System.out.println("name12 is " + safari12.name);
-        System.out.println("location12 is " + safari12.location);
-        System.out.println("forestType12 is " + safari12.forestType);
-        System.out.println("ticketPrice12 is " + safari12.ticketPrice);
-        System.out.println("durationInHours12 is " + safari12.durationInHours);
-        System.out.println("hasGuide12 is " + safari12.hasGuide);
+		safari12.getSafariInfo();
 
         ForestSafari safari13 = new ForestSafari();
+		System.out.println("The Safari13 are :");
+		safari13.getSafariInfo();
         safari13.name = "Pench Safari";
         safari13.location = "Madhya Pradesh";
         safari13.forestType = "Teak Forest";
         safari13.ticketPrice = 1800.0;
         safari13.durationInHours = 3;
         safari13.hasGuide = true;
-
-        System.out.println("name13 is " + safari13.name);
-        System.out.println("location13 is " + safari13.location);
-        System.out.println("forestType13 is " + safari13.forestType);
-        System.out.println("ticketPrice13 is " + safari13.ticketPrice);
-        System.out.println("durationInHours13 is " + safari13.durationInHours);
-        System.out.println("hasGuide13 is " + safari13.hasGuide);
+		safari13.getSafariInfo();
 
         ForestSafari safari14 = new ForestSafari();
+		System.out.println("The Safari14 are :");
+		safari14.getSafariInfo();
         safari14.name = "Nagarhole Safari";
         safari14.location = "Karnataka";
         safari14.forestType = "Tropical Forest";
         safari14.ticketPrice = 1600.0;
         safari14.durationInHours = 2;
         safari14.hasGuide = true;
-
-        System.out.println("name14 is " + safari14.name);
-        System.out.println("location14 is " + safari14.location);
-        System.out.println("forestType14 is " + safari14.forestType);
-        System.out.println("ticketPrice14 is " + safari14.ticketPrice);
-        System.out.println("durationInHours14 is " + safari14.durationInHours);
-        System.out.println("hasGuide14 is " + safari14.hasGuide);
+		safari14.getSafariInfo();
 
         ForestSafari safari15 = new ForestSafari();
+		System.out.println("The Safari15 are :");
+		safari15.getSafariInfo();
         safari15.name = "Valmiki Safari";
         safari15.location = "Bihar";
         safari15.forestType = "Moist Deciduous";
         safari15.ticketPrice = 1400.0;
         safari15.durationInHours = 2;
         safari15.hasGuide = true;
-
-        System.out.println("name15 is " + safari15.name);
-        System.out.println("location15 is " + safari15.location);
-        System.out.println("forestType15 is " + safari15.forestType);
-        System.out.println("ticketPrice15 is " + safari15.ticketPrice);
-        System.out.println("durationInHours15 is " + safari15.durationInHours);
-        System.out.println("hasGuide15 is " + safari15.hasGuide);
+		safari15.getSafariInfo();
 
         ForestSafari safari16 = new ForestSafari();
+		System.out.println("The Safari16 are :");
+		safari16.getSafariInfo();
         safari16.name = "Rajaji Safari";
         safari16.location = "Uttarakhand";
         safari16.forestType = "Mixed Forest";
         safari16.ticketPrice = 1300.0;
         safari16.durationInHours = 3;
         safari16.hasGuide = true;
-
-        System.out.println("name16 is " + safari16.name);
-        System.out.println("location16 is " + safari16.location);
-        System.out.println("forestType16 is " + safari16.forestType);
-        System.out.println("ticketPrice16 is " + safari16.ticketPrice);
-        System.out.println("durationInHours16 is " + safari16.durationInHours);
-        System.out.println("hasGuide16 is " + safari16.hasGuide);
+		safari16.getSafariInfo();
 
         ForestSafari safari17 = new ForestSafari();
+		System.out.println("The Safari17 are :");
+		safari17.getSafariInfo();
         safari17.name = "Simlipal Safari";
         safari17.location = "Odisha";
         safari17.forestType = "Sal Forest";
@@ -256,57 +187,39 @@
         safari17.durationInHours = 3;
         safari17.hasGuide = true;
 
-        System.out.println("name17 is " + safari17.name);
-        System.out.println("location17 is " + safari17.location);
-        System.out.println("forestType17 is " + safari17.forestType);
-        System.out.println("ticketPrice17 is " + safari17.ticketPrice);
-        System.out.println("durationInHours17 is " + safari17.durationInHours);
-        System.out.println("hasGuide17 is " + safari17.hasGuide);
-
         ForestSafari safari18 = new ForestSafari();
+		System.out.println("The Safari18 are :");
+		safari18.getSafariInfo();
         safari18.name = "Dudhwa Safari";
         safari18.location = "Uttar Pradesh";
         safari18.forestType = "Terai Forest";
         safari18.ticketPrice = 1550.0;
         safari18.durationInHours = 2;
         safari18.hasGuide = true;
-
-        System.out.println("name18 is " + safari18.name);
-        System.out.println("location18 is " + safari18.location);
-        System.out.println("forestType18 is " + safari18.forestType);
-        System.out.println("ticketPrice18 is " + safari18.ticketPrice);
-        System.out.println("durationInHours18 is " + safari18.durationInHours);
-        System.out.println("hasGuide18 is " + safari18.hasGuide);
+		safari18.getSafariInfo();
 
         ForestSafari safari19 = new ForestSafari();
+		System.out.println("The Safari19 are :");
+		safari19.getSafariInfo();
         safari19.name = "Bannerghatta Safari";
         safari19.location = "Karnataka";
         safari19.forestType = "Scrub Forest";
         safari19.ticketPrice = 1250.0;
         safari19.durationInHours = 2;
         safari19.hasGuide = true;
-
-        System.out.println("name19 is " + safari19.name);
-        System.out.println("location19 is " + safari19.location);
-        System.out.println("forestType19 is " + safari19.forestType);
-        System.out.println("ticketPrice19 is " + safari19.ticketPrice);
-        System.out.println("durationInHours19 is " + safari19.durationInHours);
-        System.out.println("hasGuide19 is " + safari19.hasGuide);
+		safari19.getSafariInfo();
 
         ForestSafari safari20 = new ForestSafari();
+		System.out.println("The Safari20 are :");
+		safari20.getSafariInfo();
         safari20.name = "Anamalai Safari";
         safari20.location = "Tamil Nadu";
         safari20.forestType = "Rainforest";
         safari20.ticketPrice = 1750.0;
         safari20.durationInHours = 3;
         safari20.hasGuide = true;
+		safari20.getSafariInfo();
 
-        System.out.println("name20 is " + safari20.name);
-        System.out.println("location20 is " + safari20.location);
-        System.out.println("forestType20 is " + safari20.forestType);
-        System.out.println("ticketPrice20 is " + safari20.ticketPrice);
-        System.out.println("durationInHours20 is " + safari20.durationInHours);
-        System.out.println("hasGuide20 is " + safari20.hasGuide);
 
     }
 }

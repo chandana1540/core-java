@@ -6,4 +6,14 @@ class Coins {
     double weight;
     int year;
     boolean isCommemorative;
+	
+	public void getCoinsInfo(){
+		System.out.println("country is " + country);
+        System.out.println("value is " + value);
+        System.out.println("meta1 is " + metal);
+        System.out.println("diameter is " +diameter);
+        System.out.println("weight is " + weight);
+        System.out.println("year is " + year);
+        System.out.println("isCommemorative is " +isCommemorative);
+}
 }
