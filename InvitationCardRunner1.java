@@ -1,4 +1,4 @@
-class InvitationCardRunner{
+class InvitationCardRunner1{
 public static void main (String chand[]){
 
 InvitationCard card1 = new InvitationCard();

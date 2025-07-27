@@ -1,4 +1,4 @@
-    class GymEquipmentRunner {
+class GymEquipmentRunner1 {
     public static void main(String chand[]) {
         
         GymEquipment equipment1 = new GymEquipment();
@@ -82,8 +82,6 @@
         System.out.println("brand5 is " + equipment5.brand);
         System.out.println("price5 is " + equipment5.price);
         System.out.println("isAdjustable5 is " + equipment5.isAdjustable);
-
-        // Continue similarly up to equipment20
 
         GymEquipment equipment6 = new GymEquipment();
         equipment6.name = "Barbell";
