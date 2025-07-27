@@ -1,5 +1,5 @@
 class GymEquipmentRunner1 {
-    public static void main(String chand[]) {
+    public static void main(String chandu[]) {
         
         GymEquipment equipment1 = new GymEquipment();
 		System.out.println("name1 is " + equipment1.name);
@@ -158,7 +158,7 @@ class GymEquipmentRunner1 {
         System.out.println("price10 is " + equipment10.price);
         System.out.println("isAdjustable10 is " + equipment10.isAdjustable);
 		
-		        GymEquipment equipment11 = new GymEquipment();
+		GymEquipment equipment11 = new GymEquipment();
         equipment11.name = "Lat Pulldown";
         equipment11.type = "Strength";
         equipment11.weight = 35.0;
