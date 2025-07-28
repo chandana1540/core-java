@@ -1,4 +1,17 @@
 class Blazzer {
+	
+	Blazzer(){
+		System.out.println("The Blazzer is Invoked");
+	}
+	Blazzer(String brand, String color, String size, double price, String material , boolean isFormal){
+		System.out.println("Blazzer Parameterised cons is invoked");
+		this.brand = brand;
+		this.color = color;
+		this.size = size;
+		this.price = price;
+		this.material = material;
+		this.isFormal = isFormal;
+	}
     String brand;
     String color;
     String size;
@@ -13,5 +26,6 @@ class Blazzer {
         System.out.println("price  is "+price);
         System.out.println("material  is "+material);
         System.out.println("isFormal  is "+isFormal);
+		
 }
 }

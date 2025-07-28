@@ -1,4 +1,17 @@
 class AmusementPark {
+	 AmusementPark() {
+        System.out.println("Park is invoked");
+    }
+
+    AmusementPark(String name, String location, String owner, double entryFee, int numberOfRides, boolean hasWaterPark) {
+		System.out.println("park parameterized constructor is invoked");
+        this.name = name;
+        this.location = location;
+        this.owner = owner;
+        this.entryFee = entryFee;
+        this.numberOfRides = numberOfRides;
+        this.hasWaterPark = hasWaterPark;
+    }
     String name;
     String location;
     String owner;

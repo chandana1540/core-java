@@ -1,4 +1,16 @@
 class Network {
+	Network() {
+        System.out.println("Network is invoked");
+    }
+
+    Network(String name, String type, String provider, double speed, boolean isSecure) {
+        System.out.println("Network parameterized constructor is invoked");
+        this.name = name;
+        this.type = type;
+        this.provider = provider;
+        this.speed = speed;
+        this.isSecure = isSecure;
+    }
     String name;
     String type;
     String provider;

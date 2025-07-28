@@ -1,4 +1,17 @@
 class Pipe {
+	Pipe() {
+        System.out.println("Pipe is invoked");
+    }
+	
+	Pipe(String material, double length, double diameter, String color, String brand, boolean isFlexible) {
+		System.out.println("Pipe parameterized constructor is invoked");
+        this.material = material;
+        this.length = length;
+        this.diameter = diameter;
+        this.color = color;
+        this.brand = brand;
+        this.isFlexible = isFlexible;
+    }
     String material;
     double length;
     double diameter;

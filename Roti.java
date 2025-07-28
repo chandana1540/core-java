@@ -1,4 +1,18 @@
 class Roti {
+	Roti() {
+        System.out.println("Roti is invoked");
+    }
+
+    Roti(String type, String flour, double diameter, double price, boolean isStuffed, String servedWith) {
+        System.out.println("Roti parameterized constructor is invoked");
+        this.type = type;
+        this.flour = flour;
+        this.diameter = diameter;
+        this.price = price;
+        this.isStuffed = isStuffed;
+        this.servedWith = servedWith;
+    }
+
     String type;
     String flour;
     double diameter;

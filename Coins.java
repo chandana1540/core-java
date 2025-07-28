@@ -1,4 +1,18 @@
 class Coins {
+	Coins() {
+        System.out.println("The Coins is invoked");
+    }
+
+    Coins(String country, double value, String metal, double diameter, double weight, int year, boolean isCommemorative) {
+        System.out.println("Coins parameterized constructor is invoked");
+        this.country = country;
+        this.value = value;
+        this.metal = metal;
+        this.diameter = diameter;
+        this.weight = weight;
+        this.year = year;
+        this.isCommemorative = isCommemorative;
+    }
     String country;
     double value;
     String metal;

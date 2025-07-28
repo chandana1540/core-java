@@ -1,4 +1,17 @@
 class Hat {
+	 Hat() {
+        System.out.println("Hat is Invoked");
+    }
+
+    Hat(String color, String type, String brand, double price, String material, boolean isAdjustable) {
+		System.out.println("Hat parameterized constructor is invoked");
+        this.color = color;
+        this.type = type;
+        this.brand = brand;
+        this.price = price;
+        this.material = material;
+        this.isAdjustable = isAdjustable;
+    }
     String color;
     String type;
     String brand;

@@ -1,4 +1,17 @@
 class Crackers {
+	
+	Crackers() {
+        System.out.println("Crackers is invoked ");
+    }
+    Crackers(String name, String type, String color, double price, String brand, boolean isLoud) {
+		System.out.println("Crackers parameterized constructor is invoked");
+        this.name = name;
+        this.type = type;
+        this.color = color;
+        this.price = price;
+        this.brand = brand;
+        this.isLoud = isLoud;
+    }
     String name;
     String type;
     String color;

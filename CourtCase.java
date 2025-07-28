@@ -1,4 +1,17 @@
 class CourtCase {
+	CourtCase() {
+        System.out.println("The CourtCase is Invoked");
+    }
+
+    CourtCase(String number, String defendant, String court, String judge, boolean open, String result) {
+        System.out.println("CourtCase parameterized constructor is invoked");
+        this.number = number;
+        this.defendant = defendant;
+        this.court = court;
+        this.judge = judge;
+        this.open = open;
+        this.result = result;
+    }
 	String number;
     String defendant;
     String court;

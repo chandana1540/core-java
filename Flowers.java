@@ -1,4 +1,18 @@
 class Flowers {
+	
+	Flowers() {
+        System.out.println("Flower is invoked");
+    }
+    Flowers(String name, String color, double price, String fragrance, String season, boolean isMedicinal) {
+        System.out.println("Flowers parameterized constructor is invoked");
+        this.name = name;
+        this.color = color;
+        this.price = price;
+        this.fragrance = fragrance;
+        this.season = season;
+        this.isMedicinal = isMedicinal;
+    }
+
     String name;
     String color;
     double price;

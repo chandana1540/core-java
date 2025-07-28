@@ -1,4 +1,17 @@
 class Casino {
+	Casino() {
+        System.out.println("Casino is Invoked");
+    }
+	 Casino(String name, String location, int numberOfTables, String owner, double entryFee, boolean hasHotel) {
+		System.out.println("Casino parameterized constructor is invoked");
+        this.name = name;
+        this.location = location;
+        this.numberOfTables = numberOfTables;
+        this.owner = owner;
+        this.entryFee = entryFee;
+        this.hasHotel = hasHotel;
+    }
+	
     String name;
     String location;
     int numberOfTables;

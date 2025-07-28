@@ -1,4 +1,17 @@
 class Politician {
+	 Politician() {
+        System.out.println("Politician is invoked");
+    }
+
+    Politician(String name, String party, String constituency, int age, int yearsInPolitics, boolean isMinister) {
+		System.out.println("Politician parameterized constructor is invoked");
+        this.name = name;
+        this.party = party;
+        this.constituency = constituency;
+        this.age = age;
+        this.yearsInPolitics = yearsInPolitics;
+        this.isMinister = isMinister;
+    }
     String name;
     String party;
     String constituency;

@@ -1,4 +1,17 @@
 class Weapon {
+	public Weapon() {
+        System.out.println("Weapon is invoked");
+    }
+
+    public Weapon(String name, String type, double weight, double price, String material, boolean isLicensed) {
+		System.out.println("Weapon parameterized constructor is invoked");
+        this.name = name;
+        this.type = type;
+        this.weight = weight;
+        this.price = price;
+        this.material = material;
+        this.isLicensed = isLicensed;
+    }
     String name;
     String type;
     double weight;
